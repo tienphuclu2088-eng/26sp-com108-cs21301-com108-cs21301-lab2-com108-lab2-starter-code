@@ -11,14 +11,13 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
-
-}
+int ban_kinh; 
+    float chu_vi, dien_tich; 
+    printf("Nhap ban kinh hinh tron:");
+    scanf("%d", &ban_kinh);        
+    chu_vi =  2 * 3.14 * ban_kinh; 
+    dien_tich = 3.14 * ban_kinh * ban_kinh; 
+    printf("Chu vi hinh tron la: %.2f\n", chu_vi);
+    printf("Dien tich hinh tron la: %.2f\n", dien_tich); 
+    return 0;
+}   

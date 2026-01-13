@@ -11,9 +11,13 @@
 
 int main(){
     int so1, so2;
-
-    printf("Chương trình tính tích và thương của 2 số\n");
-
-
-    return 0;
+    int tich, thuong;
+    printf("Nhap so thu nhat:");
+    scanf("%d", &so1);  
+    printf("Nhap so thu hai:");
+    scanf("%d", &so2);
+    tich = so1 * so2;
+    thuong = so1 / so2;
+    printf("Tich cua %d va %d la: %d\n", so1, so2, tich);
+    printf("Thuong cua %d va %d la: %d\n", so1 , so2, thuong);
 } 

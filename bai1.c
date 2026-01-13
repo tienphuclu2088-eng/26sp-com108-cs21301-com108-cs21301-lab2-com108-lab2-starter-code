@@ -11,13 +11,13 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
+   int a, b; // Khai báo biến để lưu 2 số nguyên
+    int tong,hieu; // Khai báo biến để lưu tổng, hiệu
+    a=4;
+    b=7;
+    tong = a + b; // Tính tổng
+    hieu = a - b; // Tính hiệu
+    printf("Tong cua %d va %d la: %d\n", a, b, tong); // In ra tổng
+    printf("Hieu cua %d va %d la: %d\n", a, b, hieu); // In ra hiệu
+    return 0;
 }
